@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@kionell/osu-pp-calculator@^3.2.14":
+  version "3.2.14"
+  resolved "https://registry.yarnpkg.com/@kionell/osu-pp-calculator/-/osu-pp-calculator-3.2.14.tgz#86994ef81e3d81d7e80cecbf4482c764a204d97f"
+  integrity sha512-+1uMOw95z2yuHlpah0tUzS1xLeb0sSnJOuHmj4hSGi9VYdgeaQFIOQkzn8mwNeobTbA7VUJedGb0he93MPPGnw==
+
 "@next/env@13.4.2":
   version "13.4.2"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.4.2.tgz#cf3ebfd523a33d8404c1216e02ac8d856a73170e"
@@ -90,6 +95,24 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.3.tgz#cef09e3ec9af1d63d2a6cc5b383a737e24e6dcf5"
   integrity sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==
 
+asynckit@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
+  integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
+
+axios@^0.27.2:
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.27.2.tgz#207658cc8621606e586c85db4b41a750e756d972"
+  integrity sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==
+  dependencies:
+    follow-redirects "^1.14.9"
+    form-data "^4.0.0"
+
+bottleneck@^2.19.5:
+  version "2.19.5"
+  resolved "https://registry.yarnpkg.com/bottleneck/-/bottleneck-2.19.5.tgz#5df0b90f59fd47656ebe63c78a98419205cadd91"
+  integrity sha512-VHiNCbI1lKdl44tGrhNfU3lup0Tj/ZBMJB5/2ZbNXRCPuRCO7ed2mgcK4r17y+KB2EfuYuRaVlwNbAeaWGSpbw==
+
 busboy@1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/busboy/-/busboy-1.6.0.tgz#966ea36a9502e43cdb9146962523b92f531f6893"
@@ -107,10 +130,36 @@ client-only@0.0.1:
   resolved "https://registry.yarnpkg.com/client-only/-/client-only-0.0.1.tgz#38bba5d403c41ab150bff64a95c85013cf73bca1"
   integrity sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==
 
+combined-stream@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
+  integrity sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
+  dependencies:
+    delayed-stream "~1.0.0"
+
 csstype@^3.0.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
   integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
+
+delayed-stream@~1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
+  integrity sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==
+
+follow-redirects@^1.14.9:
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
+  integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
+
+form-data@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
+  integrity sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.8"
+    mime-types "^2.1.12"
 
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
@@ -123,6 +172,23 @@ loose-envify@^1.1.0:
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
+
+lzma-js-simple-v2@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/lzma-js-simple-v2/-/lzma-js-simple-v2-1.2.2.tgz#5d2e2ccf72e04c6cf9fe8ac7fe2c475dff682d2c"
+  integrity sha512-dHjXHlgcS8r2K+4t8kAycGE4xMVQxPzMTCrrYhaFEtQDmjXh/A7xq4D88oOfEtjTR9XFzTAML9AuBrm4jXLigA==
+
+mime-db@1.52.0:
+  version "1.52.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.52.0.tgz#bbabcdc02859f4987301c856e3387ce5ec43bf70"
+  integrity sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==
+
+mime-types@^2.1.12:
+  version "2.1.35"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.35.tgz#381a871b62a734450660ae3deee44813f70d959a"
+  integrity sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==
+  dependencies:
+    mime-db "1.52.0"
 
 nanoid@^3.3.4:
   version "3.3.6"
@@ -151,6 +217,47 @@ next@13.4.2:
     "@next/swc-win32-arm64-msvc" "13.4.2"
     "@next/swc-win32-ia32-msvc" "13.4.2"
     "@next/swc-win32-x64-msvc" "13.4.2"
+
+osu-catch-stable@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/osu-catch-stable/-/osu-catch-stable-3.2.3.tgz#d11cd0a0632dccf90fc01e911d5f670080e50ae4"
+  integrity sha512-jpHWUWOV3q9HIpEGS9casjSTcy+Y1P/qrhqfku2bhfY5TdG1KcwVasHgL/sa+92cp52LqjM7DRhRMn7YVgZ1Ng==
+
+osu-classes@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/osu-classes/-/osu-classes-2.2.1.tgz#78d15ef10dd9b0d1b5620dffcbfafcdd43e4f5e0"
+  integrity sha512-mgzAQ1KXU5SKUrZZE221kZ2c/l8H89NxlufICV5AScSYH1OARlahbpMcxPja2rwsJGEH4NQbtd7LRO5W0rtGKQ==
+
+osu-downloader@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/osu-downloader/-/osu-downloader-0.8.1.tgz#4e3473c80abe24f630498900f30ab36fb217c624"
+  integrity sha512-5Aje16f09U3VfDYwDNDQwtBzdLK0U3u+CohEsyjk462TUxQKPlkceSxOvQZOFuKrSnx3jkcktR5ZEi35TcB6wQ==
+  dependencies:
+    axios "^0.27.2"
+    bottleneck "^2.19.5"
+    spark-md5 "^3.0.2"
+
+osu-mania-stable@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/osu-mania-stable/-/osu-mania-stable-4.0.4.tgz#8af7dfda251fad5e90ae8766b5feaf73c8768af0"
+  integrity sha512-yCCKFc6+0AMpn9ENvIjUFC3gRa6B/OA3NEiO20RLGm0RNcetJLRSi16P/gBR8LLBNhmA+Vpx970cwWq9FS3VMA==
+
+osu-parsers@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/osu-parsers/-/osu-parsers-4.0.0.tgz#a90b46be5f002fd630053723c553e8d752ca7933"
+  integrity sha512-z7R5kxCyWZsIY04UNMVNBFwUZ9mVSMMZuAzH/BgcOzx9aVU9Xb5yz0M5K2XYmXGtVgWMqCNh7NUfg7iDV5Bllg==
+  dependencies:
+    lzma-js-simple-v2 "^1.2.2"
+
+osu-standard-stable@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/osu-standard-stable/-/osu-standard-stable-4.0.4.tgz#eaf30e4d3441d552549b88bf4742286c12cc923d"
+  integrity sha512-Rb1aJTViU+ZFMe197aKlYhjMThuQ/jPHF9+KybKvElLY10/+nDgbD+lyVw2fp/4G/IgI3ghxSuD4nakgrLLGaA==
+
+osu-taiko-stable@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/osu-taiko-stable/-/osu-taiko-stable-4.0.5.tgz#d87d1fb3f25046427b398c00e4326b18acd9e58f"
+  integrity sha512-2MRYH7NjraRAcJLDOfPcjDosgMv0RYA1hcOpxtI+YLPNr7tIjaxLmksbzP4NLM//au7jDbF4QmBb14k8bPOq6Q==
 
 picocolors@^1.0.0:
   version "1.0.0"
@@ -192,6 +299,11 @@ source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
+
+spark-md5@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/spark-md5/-/spark-md5-3.0.2.tgz#7952c4a30784347abcee73268e473b9c0167e3fc"
+  integrity sha512-wcFzz9cDfbuqe0FZzfi2or1sgyIrsDwmPwfZC4hiNidPdPINjeUwNfv5kldczoEAcjl9Y1L3SM7Uz2PUEQzxQw==
 
 streamsearch@^1.1.0:
   version "1.1.0"

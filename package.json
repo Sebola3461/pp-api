@@ -9,10 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@kionell/osu-pp-calculator": "^3.2.14",
     "@types/node": "20.1.7",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "next": "13.4.2",
+    "osu-catch-stable": "^3.2.3",
+    "osu-classes": "^2.2.1",
+    "osu-downloader": "^0.8.1",
+    "osu-mania-stable": "^4.0.4",
+    "osu-parsers": "^4.0.0",
+    "osu-standard-stable": "^4.0.4",
+    "osu-taiko-stable": "^4.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.4"
