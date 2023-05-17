@@ -3,6 +3,8 @@ import { ErrorsHandler } from "../../../helpers/ErrorsHandler";
 import { QueryParameters } from "../../../helpers/QueryParameters";
 import { BeatmapCalculator } from "@kionell/osu-pp-calculator";
 import { ResponseHandler } from "../../../helpers/ResponseHandler";
+import { existsSync, mkdirSync } from "fs";
+import { resolve } from "path";
 
 export default function handler(
   req: NextApiRequest,
@@ -14,6 +16,8 @@ export default function handler(
   );
   const mode = req.query.mode;
   const mods = req.query.mods;
+
+  if (!existsSync(resolve("./cache"))) mkdirSync(resolve("./cache"));
 
   const Error = new ErrorsHandler(res);
 
